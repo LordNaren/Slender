@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inventario</title>
+	<link rel="icon" href ="./assets/icons/s.ico" type="image / x-icon">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/sweetalert2.css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="full-width navBar">
+		<div class="full-width navBar-options">	
+			<nav class="navBar-options-list">
+				<ul class="list-unstyle">
+					<li class="btn-exit" id="btn-exit">
+					<a href="./index.html">Salir</a>
+						<div class="mdl-tooltip" for="btn-exit">Salir</div>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	</div>
+	<section class="full-width navLateral">
+		<div class="full-width navLateral-bg btn-menu"></div>
+		<div class="full-width navLateral-body">
+			<div class="full-width navLateral-body-logo text-center tittles">
+				<i class="zmdi zmdi-close btn-menu"></i> SLENDER
+			</div>
+			<figure class="full-width" style="height: 77px;">
+				<figcaption class="navLateral-body-cr hide-on-tablet">
+						<span>
+							<center>
+							<h5>Camilo Avila</h5>
+							<h6>Jefe Bodega</h6>
+						</center>
+						</span>
+				</figcaption>
+			</figure><br><br>
+			<div class="full-width tittles navLateral-body-tittle-menu">
+				<i class="zmdi zmdi-desktop-mac"></i><span class="hide-on-tablet">&nbsp; PANEL</span>
+			</div>
+			<nav class="full-width">
+				<ul class="full-width list-unstyle menu-principal">
+					<li class="full-width">
+						<a href="home.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-view-dashboard"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								INICIO
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="./Users.html">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-face"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								GESTION USUARIOS
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="./products.html" class="full-width btn-subMenu">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-washing-machine"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								PRODUCTOS
+							</div>
+						</a>
+					</li>
+					<li class="full-width divider-menu-h"></li>
+					<li class="full-width">
+						<a href="./inventory.html" class="full-width">
+							<div class="navLateral-body-cl">
+								<i class="zmdi zmdi-store"></i>
+							</div>
+							<div class="navLateral-body-cr hide-on-tablet">
+								INVENTARIO
+							</div>
+						</a>
+					</li>
+						</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<section class="full-width pageContent">
+		<div class="full-width divider-menu-h"></div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col-phone mdl-cell--8-col-tablet mdl-cell--12-col-desktop">
+				<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp full-width table-responsive">
+					<thead>
+						<strong>
+						<tr>
+							<th class="mdl-data-table__cell--non-numeric">Nombre</th>
+							<th>Codigo</th>
+							<th>Stock</th>
+							<th>Precio Con IVA</th>
+						</tr>
+						</strong>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Negro t-s</td>
+							<td>0001</td>
+							<td>20</td>
+							<td>$159.900</td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Negro t-m</td>
+							<td>0002</td>
+							<td>25</td>
+							<td>$159.900</td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Negro t-l</td>
+							<td>0003</td>
+							<td>26</td>
+							<td>$159.900</td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Negro t-xl</td>
+							<td>0004</td>
+							<td>10</td>
+							<td>$159.900</td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Piel t-s</td>
+							<td>0005</td>
+							<td>19</td>
+							<td>$159.900</td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Piel t-m</td>
+							<td>0006</td>
+							<td>50</td>
+							<td>$159.900</td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Piel t-l</td>
+							<td>0007</td>
+							<td>23</td>
+							<td>$159.900</td>
+						</tr>
+						<tr>
+							<td class="mdl-data-table__cell--non-numeric">FajaYa Piel t-xl</td>
+							<td>0008</td>
+							<td>26</td>
+							<td>$159.900</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
